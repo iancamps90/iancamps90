@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="estiloLogin.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h3>Regístrate en los formularios</h3>
+        <div class="botones">
+            <button class="google-btn">
+                <picture>
+                    <img src="logoGoogle.png" alt="LogoGoogle"/>
+                </picture>
+                <span>Registrarse con Google</span>
+            </button>
+            <button class="facebook-btn">
+                <picture>
+                    <img src="logoFacebook.png" alt="logoFacebook"/>
+                </picture>
+            </button>
+        </div>
+        <div class="separador">
+            <hr>
+            <span> O RELLENA EL FORMULARIO:</span>
+            <hr>
+        </div>
+    </div>
+    <form action="" method="">
+        <div class="seccion-inputs">
+            <label for="nombre">
+                <span>Nombre</span>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..."/>
+            </label> 
+            <label for="apellidos">
+                <span>Apellidos</span>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos.."/>
+            </label>
+        </div>
+        <div>
+            <label for="email">
+                <span>Correo electrónico</span>
+                <input type="email" id="email" name="email" placeholder="Em@il" />
+            </label>
+            <label for="password">
+                <span>Password</span>
+                <input type="password" id="password" name="password" placeholder="6+ characters"/>
+            </label>
+            <label class="checkbox-label" for="checkbox">
+                <input type="checkbox" id="checkbox"/>
+                <span>Acepto las condiciones y el aviso legal</span>
+            </label>
+            <button class="submit-btn" type="submit">Crear Cuenta</button>
+        </div>
+    </form>
+</body>
+</html>
