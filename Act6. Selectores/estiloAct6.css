@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#titulo{
+    font-size: 30pt;
+    font-family: Arial;
+    color: darkmagenta;
+    margin: 30px;
+    padding: 20px;
+}
+
+
+#boton{
+    width: 300px;
+    height: 50px;
+    margin-left: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+    cursor: pointer;
+    color: darkmagenta;
+    background-color: yellow;
+    font-size: 15pt;
+    font-family: Arial;
+}
+
+#boton::before {
+    content: "Pasa por encima";
+}
+
+
+
+#boton:hover{
+    color: white;
+    background-color: green;
+}
+
+
+#boton:hover::before{
+    content: "¡Hecho!";
+}
+}
