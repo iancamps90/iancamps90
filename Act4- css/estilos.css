@@ -1,0 +1,39 @@
+body{
+    background-color: dimgrey;
+    font-family: sans-serif;
+}
+
+#titulo{
+    color:darkgoldenrod;
+    font-size: 30pt;
+}
+
+.encabezado{
+    color: darkgoldenrod;
+    font-size: 20pt;
+}
+
+#elemento-1{
+    font-size: 2rem;
+    color: darkred;
+}
+
+#elemento-2{
+    font-size: 15pt;
+    color: chartreuse;
+}
+
+#elemento-3{
+    font-size: 15pt;
+    color: darkgreen;
+}
+
+#elemento-4{
+    font-size: 15pt;
+    color: deeppink;
+}
+
+#elemento-5{
+    font-size: 15pt;
+    color: navy;
+}
