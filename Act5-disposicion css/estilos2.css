@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+h1{
+    font-size: 30pt;
+    font-family: sans-serif;
+    color: dodgerblue;
+
+}
+
+.imagenes{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 30px;
+   flex-direction:row;
+   width: 100vw;
+   height: 100vh;
+}
+
+.imagenes :hover{
+    opacity: 0.2;
+    cursor: crosshair;
+    transform:rotate(10deg);
+    transition-duration: 0,3s;
+    
+}
+
+#img1{
+    height: 300px;
+    width: 300px;
+}
+
+#img2 {
+    height: 300px;
+    width: 300px;
+}
+
+#img3 {
+    height: 300px;
+    width: 300px;
+}
+
+#img4 {
+    height: 300px;
+    width: 300px;
+}
+#img5 {
+    height: 300px;
+    width: 300px;
+}
+#img6 {
+    height: 300px;
+    width: 300px;
+}
