@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @iancamps90
-- 👀 "Desarrollador web en formación | HTML, CSS, PHP y MySQL | Aprendiendo MVC y frameworks como Symfony y React."
+- 👀 "Desarrollador Web Full Stack | Django, Angular, React, PostgreSQL, Tailwind | Creando aplicaciones escalables y dinámicas" 
 
 <!---
 iancamps90/iancamps90 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
